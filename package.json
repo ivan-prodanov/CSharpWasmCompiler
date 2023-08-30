@@ -1,0 +1,69 @@
+{
+  "name": "0x33-editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@0x33.io/wasm-sdk": "^0.0.11",
+    "@monaco-editor/react": "^4.2.1",
+    "@0x33.io/monaco": "^0.3.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.0",
+    "@testing-library/user-event": "^12.2.2",
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^12.19.5",
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "@types/styled-components": "^5.1.9",
+    "comlink": "^4.3.0",
+    "lodash": "^4.17.21",
+    "monaco-editor": "^0.26.1",
+    "omniwasm": "^0.5.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-resize-detector": "^6.6.3",
+    "react-scripts": "4.0.0",
+    "react-split": "^2.0.9",
+    "styled-components": "^5.2.1",
+    "typescript": "4.0.3",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "@0x33.io/wasm-sdk-webpack-plugin": "^0.0.4",
+    "copy-webpack-plugin": "^6.4.1",
+    "@babel/plugin-transform-typescript": "^7.13.0",
+    "customize-cra": "^1.0.0",
+    "monaco-editor-webpack-plugin": "^4.0.0",
+    "react-app-rewired": "^2.1.6",
+    "webpack-cli": "^4.5.0",
+    "worker-plugin": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start --watch-all",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "styled-components": "^5",
+    "omniwasm": "^0"
+  }
+}

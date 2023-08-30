@@ -1,0 +1,11 @@
+{
+  "typescript.tsdk": "c:\\Users\\nevel\\Source\\Repos\\OmniWasm\\js\\monaco\\node_modules\\typescript\\lib",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "search.useIgnoreFiles": true,
+  "search.exclude": {
+    "**/node_modules": true,
+  },
+  //"typescript.preferences.importModuleSpecifier": "relative" <-- TODO add this when this becomes a lib
+}
