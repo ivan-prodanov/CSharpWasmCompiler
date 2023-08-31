@@ -1,17 +1,15 @@
-import { CompositeDisposable, EditorFile, IWorkspace } from "@0x33.io/monaco";
+import {
+  CompositeDisposable,
+  EditorFile,
+  IEditorWrapper,
+  IWorkspace,
+} from "@0x33.io/monaco";
 import MonacoEditor, { DiffEditor, EditorProps } from "@monaco-editor/react";
 import * as Monaco from "monaco-editor";
 import { editor } from "monaco-editor";
-import React, {
-  useCallback,
-  useContext,
-  useEffect,
-  useMemo,
-  useState,
-} from "react";
+import { useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { useResizeDetector } from "react-resize-detector";
 import styled, { ThemeContext } from "styled-components";
-import { IEditorWrapper } from "../../../0x33/OmniWasm/js/monaco/dist/editors/EditorWrapper";
 import { EditorActions } from "../actions";
 import { Language } from "../constants/bootConstants";
 import { Overlay } from "./Overlay";
