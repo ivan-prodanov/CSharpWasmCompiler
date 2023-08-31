@@ -3,17 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@0x33.io/monaco": "0.3.2",
+    "@0x33.io/wasm-sdk": "0.0.12",
     "@0x33.io/wasm-sdk": "^0.0.11",
     "@monaco-editor/react": "^4.2.1",
     "@0x33.io/monaco": "^0.3.0",
+    "@monaco-editor/react": "4.2.1",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.0",
     "@testing-library/user-event": "^12.2.2",
     "@types/jest": "^26.0.15",
     "@types/lodash": "^4.14.168",
     "@types/node": "^12.19.5",
-    "@types/react": "^16.9.56",
-    "@types/react-dom": "^16.9.9",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
     "@types/styled-components": "^5.1.9",
     "comlink": "^4.3.0",
     "lodash": "^4.17.21",
@@ -22,21 +25,22 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-resize-detector": "^6.6.3",
-    "react-scripts": "4.0.0",
+    "react-scripts": "^4.0.0",
     "react-split": "^2.0.9",
     "styled-components": "^5.2.1",
-    "typescript": "4.0.3",
+    "typescript": "^4.1.0",
     "web-vitals": "^0.2.4"
   },
   "devDependencies": {
-    "@0x33.io/wasm-sdk-webpack-plugin": "^0.0.4",
-    "copy-webpack-plugin": "^6.4.1",
+    "@0x33.io/wasm-sdk-webpack-plugin": "0.0.4",
     "@babel/plugin-transform-typescript": "^7.13.0",
+    "copy-webpack-plugin": "^6.4.1",
     "customize-cra": "^1.0.0",
     "monaco-editor-webpack-plugin": "^4.0.0",
     "react-app-rewired": "^2.1.6",
     "webpack-cli": "^4.5.0",
-    "worker-plugin": "^5.0.0"
+    "worker-plugin": "^5.0.0",
+    "yarn-deduplicate": "^6.0.2"
   },
   "scripts": {
     "start": "react-app-rewired start --watch-all",
@@ -63,7 +67,8 @@
     ]
   },
   "resolutions": {
-    "styled-components": "^5",
-    "omniwasm": "^0"
+    "styled-components": "^5.2.1",
+    "omniwasm": "^0.5.2",
+    "@types/react": "^17.0.0"
   }
 }

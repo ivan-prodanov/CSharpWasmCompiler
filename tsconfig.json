@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "noImplicitAny": false,
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -15,7 +20,10 @@
     "isolatedModules": true,
     "noEmit": true,
     "sourceMap": false,
-    "jsx": "react"
+    "jsx": "react-jsx"
   },
-  "include": ["src", "declarations/react-split.d.ts"]
+  "include": [
+    "src",
+    "declarations/react-split.d.ts"
+  ]
 }

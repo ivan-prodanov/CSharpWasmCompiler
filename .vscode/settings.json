@@ -1,5 +1,5 @@
 {
-  "typescript.tsdk": "c:\\Users\\nevel\\Source\\Repos\\OmniWasm\\js\\monaco\\node_modules\\typescript\\lib",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
