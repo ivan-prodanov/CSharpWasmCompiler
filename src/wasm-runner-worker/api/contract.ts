@@ -1,5 +1,5 @@
 import { BootJsonData } from '@0x33.io/wasm-sdk';
-import { WasmRunnerWorker } from 'wasmrunner';
+import { WasmRunnerWorker } from '@0x33.io/wasmrunner';
 
 export interface WasmRunnerWorkerContract extends WasmRunnerWorker {
     // Make note that the return type needs to be wrapped in a promise.

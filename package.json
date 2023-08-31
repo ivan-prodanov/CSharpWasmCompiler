@@ -5,9 +5,7 @@
   "dependencies": {
     "@0x33.io/monaco": "0.3.2",
     "@0x33.io/wasm-sdk": "0.0.12",
-    "@0x33.io/wasm-sdk": "^0.0.11",
-    "@monaco-editor/react": "^4.2.1",
-    "@0x33.io/monaco": "^0.3.0",
+    "@0x33.io/wasmrunner": "0.0.2",
     "@monaco-editor/react": "4.2.1",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.0",

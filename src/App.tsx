@@ -8,14 +8,13 @@ import {
 } from "@0x33.io/monaco";
 import { useMonaco } from "@monaco-editor/react";
 import { concat } from "lodash";
-import React, { useCallback, useContext, useEffect, useState } from "react";
+import { useCallback, useContext, useEffect, useState } from "react";
 import Split from "react-split";
 import styled, { ThemeContext } from "styled-components";
 import { Editor } from "./components/Editor";
 import { FilePanel } from "./components/filePanel/FilePanel";
 // import { FilePanel } from "./components/FilePanel/FilePanel/";
 import { MarkerSeverity } from "monaco-editor";
-import { StartupStep } from "./components/Container";
 import { BuildInformationPanel } from "./components/buildPanel/BuildInformationPanel";
 import { BuildInformationTabType } from "./components/buildPanel/BuildInformationTab";
 import {
@@ -26,6 +25,7 @@ import {
   ExecutionOutputEntry,
   ExecutionOutputSeverity,
 } from "./components/buildPanel/ExecutionOutputPanel";
+import { StartupStep } from "./components/Container";
 import {
   HelperClassCode,
   InitialCsharpCode,

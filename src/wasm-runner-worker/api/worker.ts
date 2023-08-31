@@ -1,5 +1,5 @@
 import { boot, BootJsonData } from '@0x33.io/wasm-sdk';
-import { WasmRunner, WasmRunnerWorkerProxy } from 'wasmrunner';
+import { WasmRunner, WasmRunnerWorkerProxy } from '@0x33.io/wasmrunner';
 import { WasmRunnerWorkerContract } from './contract';
 
 export class WasmRunnerWorker extends WasmRunnerWorkerProxy implements WasmRunnerWorkerContract {

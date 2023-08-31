@@ -1,5 +1,5 @@
+import { WasmRunnerWorkerProxy } from '@0x33.io/wasmrunner';
 import { expose } from 'comlink';
-import { WasmRunnerWorkerProxy } from 'wasmrunner';
 import { WasmRunnerWorker } from './worker';
 
 const { proxy, _instance } = WasmRunnerWorkerProxy.CreateProxy(WasmRunnerWorker);

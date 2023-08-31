@@ -1,7 +1,7 @@
 import { BootJsonData } from '@0x33.io/wasm-sdk';
+import { WasmRunner } from '@0x33.io/wasmrunner';
 import { proxy, releaseProxy, Remote, wrap } from 'comlink';
 import React, { useContext, useEffect, useMemo, useState } from 'react';
-import { WasmRunner } from '../../../0x33/WasmRunner/WasmRunner/WasmRunner/bin/Debug/net5.0/js/dist';
 import { WasmRunnerWorkerContract } from './api/contract';
 import WasmRunnerLogger from './wasmRunnerLogger';
 
